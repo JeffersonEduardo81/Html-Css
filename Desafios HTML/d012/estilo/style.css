@@ -22,14 +22,17 @@ header{
     background-color: var(--cor02);
     color: var(--cor01);
     text-align: center;
+    padding: 40px;
 }
 
 header > h1{
     font-family: var(--fonte-titulo);
+    font-size: 4em;
 }
 
 header > p{
     font-family: verdana;
+    padding-top: 10px;
 }
 
 header > p > a{
@@ -39,5 +42,22 @@ header > p > a{
 }
 
 main{
+    font-family: var(--fonte-conteudo);
     
 }
+
+.um > p{
+    font-size: 1.2em;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.dois{
+    border: 5px solid black;
+    font-size: 1.2em;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
