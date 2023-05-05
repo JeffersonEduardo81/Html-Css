@@ -18,6 +18,13 @@
     margin: 0px;
 }
 
+main{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-attachment: scroll;
+    font-family: var(--fonte-conteudo);
+}
+
 header{
     background-color: var(--cor02);
     color: var(--cor01);
@@ -41,23 +48,28 @@ header > p > a{
     font-weight: bold;
 }
 
-main{
-    font-family: var(--fonte-conteudo);
-    
-}
-
 .um > p{
     font-size: 1.2em;
+    background-color: var(--cor01);
     padding-top: 50px;
     padding-left: 30px;
     padding-bottom: 50px;
 }
 
 .dois{
-    border: 5px solid black;
+    
     font-size: 1.2em;
     padding-top: 50px;
     padding-left: 30px;
     padding-bottom: 50px;
+}
+
+.dois > p{
+    color: var(--cor01);
+    background-color: rgba(0, 0, 0, 0.465);
+    
+
+    padding: 10px;
+    margin-right: 1050px;
 }
 
