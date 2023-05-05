@@ -22,11 +22,9 @@ header{
     background-color: var(--cor02);
     color: var(--cor01);
     text-align: center;
-    padding: 50px;
 }
 
 header > h1{
-    font-size: 7.5em;
     font-family: var(--fonte-titulo);
 }
 
@@ -38,4 +36,8 @@ header > p > a{
     color: var(--cor01);
     text-decoration: none;
     font-weight: bold;
+}
+
+main{
+    
 }
